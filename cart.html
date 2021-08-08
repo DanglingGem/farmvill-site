@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Farmvill | Cart page</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+
+        <!-- Desktop Menu -->
+        <div class="nav-wrapper">
+            <div id="logo">
+               <a class="logo"  href="#">
+                <img src="images/nav logo.png" alt="Farmvill logo"/>
+               </a>
+            </div>
+            <ul id="nav-list">
+                <li class="nav-list">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+
+                <li class="nav-list">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-list">
+                    <a class="nav-link" href="#">Sell</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#">
+                        <span id="search" class="iconify" data-icon="icons8:search"></span>
+                    </a>
+                </li>
+            </ul>
+            <div id="cart-login">
+                <a href="#cart.html">
+                    <span id="cart" class="iconify" data-icon="clarity:shopping-bag-line"></span>    
+                </a>
+                <a href="#">
+                    <button id="nav-btn">Login</button>
+                </a>
+            </div>
+            <div class="open-icon">
+                <span id="open-menu" class="iconify" fill="#fff" data-icon="openmoji:hamburger-menu"></span>
+            </div>
+        </div>
+
+        
+    </nav>
+
+    <main>
+        <div class="cart-title">
+            <h2>Your Cart</h2>
+            <p>Not ready to checkout? <a href="index.html" target="_blank">Continue Shopping</a></p>
+        </div>
+        <section class="cart-list">
+            <hr>
+            <div id="product">
+                <div class="product-image">
+                    <img src="images/apples.jpg" alt="apples"/>
+                </div>
+                <div id="product-details">
+                    <h5>Apples</h5>
+                    <p>Weight: <span>4kg</span></p>
+                    <p>Quantity: <span>1</span></p>
+                    <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
+                </div>
+                <div id="remove-cart">
+                    <a href="#">
+                        <button>Remove</button>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div id="product">
+                <div class="product-image">
+                    <img src="images/lemon.jpg" alt="lemon"/>
+                </div>
+                <div id="product-details">
+                    <h5>Lemon</h5>
+                    <p>Weight: <span>4kg</span></p>
+                    <p>Quantity: <span>1</span></p>
+                    <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
+                </div>
+                <div id="remove-cart">
+                    <a href="#">
+                        <button>Remove</button>
+                    </a>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
+        <!-- Order Information -->
+        <section class="information">
+            <h3 class="title-info">Order Information</h3>
+            <div class="return-info">
+                <h5>Return Policy</h5>
+                <div class="question">
+                    <button type="button" class="question-btn">
+                        <span class="iconify" data-icon="bi:plus"></span>
+                        <span class="iconify" data-icon="bx:bx-minus"></span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>This is our example return policy which is everything you need to know about our returns.</p>
+                </div>
+            </div>
+            <div class="shipping">
+                <h5>Shipping Options</h5>
+                <div class="question">
+                    <button type="button" class="question-btn">
+                        <span class="iconify" data-icon="bi:plus"></span>
+                        <span class="iconify" data-icon="bx:bx-minus"></span>
+                    </button>
+                </div>
+                <div class="answer">
+                    <p>This is our example return policy which is everything you need to know about our returns.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--Footer -->
+
+    <footer id="footer">
+       
+        <!-- Logo & Location -->
+        <section class="footer-logo-location">
+            <div class="footer-logo">
+                <a id="footer-logo" href="#">
+                    <img src="images/footer logo.png"/>
+                </a>
+            </div>
+            <div class="footer-social-links">
+                <p>Would you like to receive free newsletters?</p>
+                <p>Message us today at <em>logo@gmail.com</em></p>
+                <div class="footer-icons">
+                    <a href="#">
+                        <span id="footer-icons" class="iconify" data-icon="ant-design:twitter-square-filled"></span> 
+                    </a>
+                    <a href="https://instagram.com/farmvill.ng?utm_medium=copy_link" target="_blank">
+                        <span id="footer-icons" class="iconify" data-icon="bx:bxl-instagram"></span> 
+                    </a>
+                    <a href="https://www.facebook.com/Farmvill-112998887726244" target="_blank">
+                        <span id="footer-icons" class="iconify" data-icon="bx:bxl-facebook-circle"></span> 
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="footer-list-container">
+            <h5>Quick links</h5>
+                <ul id="footer-list">
+                    <li class="footer-list">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Explore</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Places</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="footer-list-container">
+            <h5>References</h5>
+                <ul id="footer-list">
+                    <li class="footer-list">
+                        <a href="#">Support</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Development</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Terms and conditions</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Safety & Security</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="footer-list-container">
+            <h5>Categories</h5>
+                <ul id="footer-list">
+                    <li class="footer-list">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="footer-list">
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+        </div>
+    </footer>
+
+
+
+    <!-- Iconify link -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <!-- Javascript Link -->
+    <script src="app.js"></script> 
+</body>
+</html>
