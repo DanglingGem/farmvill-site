@@ -456,6 +456,7 @@ sup{
         transition: all 300ms linear;
         background: transparent;
         border-color: transparent;
+        margin-right: 1rem;
         
     }
     
