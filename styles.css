@@ -461,8 +461,7 @@ sup{
         padding-left: 3rem;
     }    
 
-    .nav-list,
-    .cart-login{
+    .nav-list{
         display: block;
         height: 0;
         overflow: hidden;
@@ -541,6 +540,27 @@ sup{
 
 /* Cart CSS Styling */
 
+.cart-title{
+    margin: 2rem 0rem 0rem 2rem;
+    
+}
+.cart-title h2{
+    color: var(--clr-valid-fields);
+}
+
+.cart-title p{
+    font-weight: 200;
+}
+
+.cart-title p a{
+    color: var(--cl-links-buttons);
+    text-decoration: underline;
+}
+
+.cart-list{
+    margin: 2rem 0rem 0rem 2rem;
+}
+
 #product{
     display: flex;
     flex-direction: row;
@@ -566,26 +586,7 @@ sup{
     margin-top: 0.8rem;
 }
 
-.cart-title{
-    margin: 8rem 0rem 0rem 2rem;
-    
-}
-.cart-title h2{
-    color: var(--clr-valid-fields);
-}
 
-.cart-title p{
-    font-weight: 200;
-}
-
-.cart-title p a{
-    color: var(--cl-links-buttons);
-    text-decoration: underline;
-}
-
-.cart-list{
-    margin: 2rem 0rem 0rem 2rem;
-}
 
 #remove-cart > *{
     margin: 0rem 0rem 0rem 50rem; 
