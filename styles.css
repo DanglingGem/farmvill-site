@@ -422,7 +422,7 @@ sup{
 
 
     .logo > *{
-        height: 2.8rem;
+        height: 2.5rem;
         width: 50%;
         margin-top: 1.4rem;
     }
@@ -456,7 +456,7 @@ sup{
         transition: all 300ms linear;
         background: transparent;
         border-color: transparent;
-        margin-right: 1rem;
+        padding-right: 2rem;
         
     }
     
