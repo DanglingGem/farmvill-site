@@ -417,8 +417,9 @@ sup{
     #logo{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
+
 
     .logo > *{
         height: 2.8rem;
@@ -447,7 +448,7 @@ sup{
     }
 
     #open-menu{
-        font-size: 50px;
+        font-size: 30px;
         color: #ffffff;
         display: block;
         margin-top: 1rem;
