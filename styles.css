@@ -36,7 +36,6 @@ Global Styling
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
     overflow-x: hidden;
      
 }
@@ -367,8 +366,8 @@ sup{
 }
 
 
-
-@media screen and (max-width: 750px){
+/* Media Query for Tab Devices*/
+@media screen and (max-width: 882px){
     #nav-list a{
         margin: 0rem 0.5rem 0rem 0.5rem;
         
