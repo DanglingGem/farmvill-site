@@ -11,10 +11,28 @@
     <!-- Font awesome CDN -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    
+
     <title>Farmvill | Product page</title>
+
+    <!-- jQuery link -->
+    <script src="libs/jquery-3.6.0.js"></script>
 </head>
 <body>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        // Search Button
+        $(function () {
+           'use strict';
+           $('i').click(function () {
+              $(this).next().animate({
+                 width: '250px'
+              });
+           });
+        });
+
+    });
+    </script>
 
     <!-- Navigation -->
     <nav class="nav">
@@ -43,12 +61,13 @@
                     <a class="nav-link" href="#">Sell</a>
                 </li>
                 <li id="nav-list">
-                    <a href="#">
-                        <span id="search" class="iconify" data-icon="icons8:search"></span>
-                    </a>
+                    <form>
+                        <i class="fa fa-search"></i>
+                        <input type="search">
+                    </form>
                 </li>
             </ul>
-            <div id="cart-login">
+            <div class="cart-login">
                 <a href="#cart.html">
                     <span id="cart" class="iconify" data-icon="clarity:shopping-bag-line"></span>    
                 </a>
@@ -73,7 +92,7 @@
             <!-- Price range -->
             <section class="price-range">
                 <div class="adjust">
-                    <span id="adjust" class="iconify" data-icon="majesticons:adjustments-line"></span>
+                    <h3>FILTER</h3>
                 </div>
                 <h3>Price Range</h3>
                 <form class="range-form">
@@ -287,6 +306,8 @@
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 
     <!-- Javascript Link -->
-    <script src="app.js"></script>    
+    <script src="app.js"></script> 
+    
+    
 </body>
 </html>

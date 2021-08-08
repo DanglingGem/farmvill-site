@@ -77,6 +77,7 @@ nav{
     position: relative;
     height: 100%;
     padding: 0rem 2rem 0rem 2rem;
+    margin-bottom: 1rem;
 }
 
 .logo > *{
@@ -110,14 +111,36 @@ nav{
 }
 
 
-#cart-login{
+
+#nav-list input{
+    padding-left: 25px;
+    width: 0;
+    height: 0px;
+    border: 0px solid var(--clr-valid-fields); 
+    border-radius: 8px;
+    
+}
+
+#nav-list input:hover{
+    border: 0px solid var(--clr-valid-fields);
+}
+
+#nav-list i{
+    position: relative;
+    right: -25px;
+    z-index: 2;
+    color: #ffffff;
+}
+
+
+.cart-login{
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#cart-login a{
+.cart-login a{
     margin: 0rem 2rem 0rem 2rem;
     color: #ffffff;
 }
@@ -439,7 +462,7 @@ sup{
     }    
 
     .nav-list,
-    #cart-login{
+    .cart-login{
         display: block;
         height: 0;
         overflow: hidden;
@@ -460,6 +483,7 @@ sup{
         border-color: transparent;
         padding-right: 2rem;
         margin-right: 2rem;
+        margin-top: 1.5rem;
         
     }
     
@@ -468,8 +492,9 @@ sup{
     }
 
     .show-menu{
-        height: 10rem;
+        height: 12rem;
     }
+
 
     .product-price-layout{
         flex-direction: column;
@@ -484,6 +509,10 @@ sup{
         height: 18rem;
         margin-right: 2rem;
         
+     }
+
+     .rating-icons{
+         margin-bottom: 2.5rem;
      }
 
      .farm-produce{
