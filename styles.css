@@ -585,6 +585,13 @@ sup{
 
 /* Media Query for Tab Devices*/
 @media screen and (max-width: 882px){
+    .logo{
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+
+
     #nav-list a{
         margin: 0rem 0.5rem 0rem 0.5rem;
         

@@ -8,6 +8,11 @@
     <!-- CSS Styling -->
     <link rel="stylesheet" href="styles.css"/>
 
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
      <!-- jQuery link -->
      <script src="libs/jquery-3.6.0.js"></script>
 
@@ -15,20 +20,36 @@
 </head>
 <body>
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+    
+    $(document).ready(function () {
+   // Search Button
+   $(function () {
+      'use strict';
+      $('i').click(function () {
+         $(this).next().animate({
+            width: '250px'
+         });
+      });
+   });
+
+});
+    </script>
 
      <!-- Navigation -->
      <nav class="nav">
 
         <div class="nav-wrapper">
             <div id="logo">
-               <a class="logo" href="#">
-                <img  src="images/nav logo.png" alt="Farmvill logo"/>
+               <a  href="#">
+                <img  class="logo" src="images/nav logo.png" alt="Farmvill logo"/>
                </a>
                <button id="open-menu">
                 <i class="fas fa-bars"></i>
                </button>
             </div>
+
+            <!-- Links -->
             <ul class="nav-list">
                 <li id="nav-list">
                     <a class="nav-link" href="#">Home</a>
@@ -46,7 +67,7 @@
                 <li id="nav-list">
                     <form>
                         <i class="fa fa-search"></i>
-                        <input type="search">
+                        <input type="search"/>
                     </form>
                 </li>
             </ul>
