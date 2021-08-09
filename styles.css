@@ -635,7 +635,7 @@ sup{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        outline: 1px solid red;
+        
         
     }
 
@@ -644,7 +644,7 @@ sup{
         height: 1.8rem;
         width: 100%;
         margin-top: 1.4rem;
-        outline: 1px solid red;
+        
         
     }
 
@@ -682,7 +682,6 @@ sup{
         padding-right: 2rem;
         margin-right: 2rem;
         margin-top: 1.2rem;
-        outline: 1px solid red;
         margin-left: 2rem;
         
     }
