@@ -227,6 +227,7 @@ nav{
 
 .categories h1{
     font-size: 2.5rem;
+    color: var(--clr-valid-fields);
     
 }
 
@@ -604,7 +605,7 @@ sup{
 
 
     .logo > *{
-        height: 2rem;
+        height: 1rem;
         width: 100%;
         margin-top: 1.4rem;
         
@@ -652,7 +653,20 @@ sup{
         height: 12rem;
     }
 
+    /* Categories */
+    .categories-list{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .categories-list li a{
+        font-weight: 400;
+        
+    }
+    
 
+    /* Products */
     .product-price-layout{
         flex-direction: column;
         justify-content: center;
