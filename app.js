@@ -8,18 +8,7 @@ open.addEventListener("click", function () {
    
 });
 
-$(document).ready(function () {
-   // Search Button
-   $(function () {
-      'use strict';
-      $('i').click(function () {
-         $(this).next().animate({
-            width: '250px'
-         });
-      });
-   });
 
-});
 
 
 // Cart

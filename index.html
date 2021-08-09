@@ -20,7 +20,20 @@
 </head>
 <body>
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+   // Search Button
+   $(function () {
+      'use strict';
+      $('i').click(function () {
+         $(this).next().animate({
+            width: '250px'
+         });
+      });
+   });
+
+});
+    </script>
 
     <!-- Navigation -->
     <nav class="nav">
