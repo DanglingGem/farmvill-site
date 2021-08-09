@@ -37,7 +37,7 @@
     </script>
 
      <!-- Navigation -->
-     <nav class="nav">
+    <nav class="nav">
 
         <div class="nav-wrapper">
             <div id="logo">
@@ -73,6 +73,7 @@
             </ul>
             <div class="cart-login">
                 <a href="cart.html">
+                    <span id="counter">0</span>
                     <span id="cart" class="iconify" data-icon="clarity:shopping-bag-line"></span>    
                 </a>
                 <a href="#">
@@ -80,6 +81,7 @@
                 </a>
             </div>
         </div>
+        
     </nav>
 
     <!-- Mobile cart & Login -->
@@ -99,42 +101,56 @@
             <h2>Your Cart</h2>
             <p>Not ready to checkout? <a href="index.html" target="_blank">Continue Shopping</a></p>
         </div>
-        <section class="cart-list">
-            <hr>
-            <div id="product">
-                <div class="product-image">
-                    <img src="images/apples.jpg" alt="apples"/>
+        <!-- Cart & Order Summary -->
+        <section class="cart-order-summary">
+            <section class="cart-list">
+                <hr>
+                <div id="product">
+                    <div class="product-image">
+                        <img src="images/apples.jpg" alt="apples"/>
+                    </div>
+                    <div id="product-details">
+                        <h5>Apples</h5>
+                        <p>Weight: <span>4kg</span></p>
+                        <p>Quantity: <span>1</span></p>
+                        <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
+                    </div>
+                    <div id="remove-cart">
+                        <a href="#">
+                            <button>Remove</button>
+                        </a>
+                    </div>
                 </div>
-                <div id="product-details">
-                    <h5>Apples</h5>
-                    <p>Weight: <span>4kg</span></p>
-                    <p>Quantity: <span>1</span></p>
-                    <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
+                <hr>
+                <div id="product">
+                    <div class="product-image">
+                        <img src="images/lemon.jpg" alt="lemon"/>
+                    </div>
+                    <div id="product-details">
+                        <h5>Lemon</h5>
+                        <p>Weight: <span>4kg</span></p>
+                        <p>Quantity: <span>1</span></p>
+                        <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
+                    </div>
+                    <div id="remove-cart">
+                        <a href="#">
+                            <button>Remove</button>
+                        </a>
+                    </div>
                 </div>
-                <div id="remove-cart">
-                    <a href="#">
-                        <button>Remove</button>
-                    </a>
-                </div>
-            </div>
-            <hr>
-            <div id="product">
-                <div class="product-image">
-                    <img src="images/lemon.jpg" alt="lemon"/>
-                </div>
-                <div id="product-details">
-                    <h5>Lemon</h5>
-                    <p>Weight: <span>4kg</span></p>
-                    <p>Quantity: <span>1</span></p>
-                    <p id="price"><span class="iconify" data-icon="tabler:currency-naira"></span>2499<sup>:99</sup></p>
-                </div>
-                <div id="remove-cart">
-                    <a href="#">
-                        <button>Remove</button>
-                    </a>
-                </div>
-            </div>
-            <hr>
+                <hr>
+            </section>
+
+            <section class="order-summary">
+                <form class="order">
+                    <label for="order">Order Summary 
+                        <input type="text" id="order" placeholder="Enter coupon code here"/>
+                    </label>
+                </form>
+                <a href="#">
+                    <button>Continue to checkout</button>
+                </a>
+            </section>
         </section>
 
 
