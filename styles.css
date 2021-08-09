@@ -640,9 +640,9 @@ sup{
     }
 
 
-    .logo > *{
+    .logo {
         height: 1.8rem;
-        width: 80%;
+        width: 100%;
         margin-top: 1.4rem;
         outline: 1px solid red;
         
@@ -674,7 +674,7 @@ sup{
         font-size: 30px;
         color: #ffffff;
         display: block;
-        margin-top: 1rem;
+        padding-left: 2rem;
         cursor: pointer;
         transition: all 300ms linear;
         background: transparent;
@@ -683,6 +683,7 @@ sup{
         margin-right: 2rem;
         margin-top: 1.5rem;
         outline: 1px solid red;
+        margin-left: 2rem;
         
     }
     
