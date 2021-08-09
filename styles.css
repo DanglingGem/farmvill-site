@@ -115,24 +115,24 @@ nav{
 
 
 
-#nav-list input{
+#nav-list form input{
     padding-left: 25px;
     width: 0;
-    height: 0px;
-    border: 0px solid var(--clr-valid-fields); 
+    height: 22px;
+    border: 0px solid #ffffff; 
     border-radius: 8px;
+    background-color: #ffffff;
     
 }
 
-#nav-list input:hover{
-    border: 0px solid var(--clr-valid-fields);
-}
+
 
 #nav-list i{
     position: relative;
     right: -25px;
+    top: 2px;
     z-index: 2;
-    color: #ffffff;
+    color: var(--clr-valid-fields);
 }
 
 
