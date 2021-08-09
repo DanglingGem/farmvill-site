@@ -659,6 +659,10 @@ sup{
         justify-content: center;
         margin-top: 1rem;
     }
+
+    .categories-list li{
+        margin: 1rem 0rem;
+    }
     
     .categories-list li a{
         font-weight: 400;
