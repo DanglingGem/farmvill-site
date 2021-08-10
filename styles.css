@@ -725,7 +725,7 @@ sup{
         
     }
 
-    .mobile-cart-login #mobile-cart{
+    #mobile-cart{
         color: #58a535;
         font-size: 30px;
         margin-top: 0.5rem;
@@ -750,7 +750,7 @@ sup{
         
     }
 
-    .mobile-cart-login #mobile-nav-btn{
+    #mobile-nav-btn{
         padding: 0.4rem 1rem 0.4rem 1rem;
         font-size: 14px;
         color: #ffffff;
@@ -758,7 +758,7 @@ sup{
         background-color: var(--clr-valid-fields);
         transition: all 300ms ease;
     }
-    .mobile-cart-login #mobile-nav-btn:hover{
+    #mobile-nav-btn:hover{
         cursor: pointer;
         color: var(--clr-valid-fields);
         background-color: #ffffff;
