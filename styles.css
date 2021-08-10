@@ -86,7 +86,7 @@ nav{
 }
 
 .logo {
-    height: 2.8rem;
+    height: 2.5rem;
     width: 200px;
     margin-top: 1rem;
 }
@@ -107,7 +107,7 @@ nav{
 }
 
 .nav-list a{
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
     color: #ffffff;
 }
 .nav-list a:hover{
