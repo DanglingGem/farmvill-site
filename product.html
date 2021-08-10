@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="styles/styles.css"/>
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+
+        <div class="nav-wrapper">
+            <div id="logo">
+               <a  href="#">
+                <img  class="logo" src="images/nav logo.png" alt="Farmvill logo"/>
+               </a>
+               <button id="open-menu">
+                <i class="fas fa-bars"></i>
+               </button>
+            </div>
+
+            <!-- Links -->
+            <ul class="nav-list">
+                <li id="nav-list">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li id="nav-list">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+
+                <li id="nav-list">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li id="nav-list">
+                    <a class="nav-link" href="#">Sell</a>
+                </li>
+                <li id="nav-list">
+                    <form>
+                        <i class="fa fa-search"></i>
+                        <input type="search" placeholder="Search" id="myInput" onkeyup="filterFunction()"/>
+                    </form>
+                </li>
+            </ul>
+            <div class="cart-login">
+                <a href="cart.html">
+                    <span id="counter">0</span>
+                    <span id="cart" class="iconify" data-icon="clarity:shopping-bag-line"></span>    
+                </a>
+            </div>
+        </div>
+        
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="images">
+                <div class="images"></div>
+                <div class="images"></div>
+                <div class="images"></div>
+                <div class="images"></div>
+            </div>
+            <div class="image-details">
+                <div class="image-title">
+                    <h2>Product</h2>
+                    <div class="favourite">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="image-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus quia? Nesciunt autem ratione laboriosam tempore ex esse perspiciatis optio labore, nemo, dolor corporis eum ipsum dolores obcaecati numquam totam!</p>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <button>Add to Cart - <span>$</span>5000</button>
+                    </a>
+                    <button>2</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Iconify link -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <!-- Javascript Link -->
+    <script src="app.js"></script> 
+</body>
+</html>
