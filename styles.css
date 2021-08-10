@@ -599,6 +599,7 @@ sup{
 @media screen and (max-width: 882px){
     .logo{
         height: 2rem;
+        width: 150px;
         margin-top: 1rem;
     }
 
