@@ -37,6 +37,7 @@ Global Styling
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    outline: 1px solid red;
      
 }
 
@@ -46,6 +47,7 @@ body{
     width: 100%;
     font-weight: 600;
     color:#000;
+    
 }
 
 h5{
