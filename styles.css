@@ -148,6 +148,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 2rem,
 }
 
 .cart-login a{
