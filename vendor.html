@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Style Link-->
+    <link rel="stylesheet" href="styles/vendor.css"/>
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Farmvill | Vendor's Page</title>
+</head>
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class="nav-bar">
+        <div class="nav-wrapper">
+            <div class="personal-info"></div>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Messages</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Reorts</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="settings">
+                <h5>Settings</h5>
+                <div>
+                    <span></span>
+                    <a href="#">Main Settings</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/" alt="logo"/>
+                </a>
+                <h2>Add New Product</h2>
+            </div>
+
+            <!-- form -->
+            <form class="product-details">
+                <label for="name">Product Name
+                    <input class="product-name" type="text"/>
+                </label>
+                <label for="price">Price
+                    <input class="product-price" type="text"/>
+                    <span></span>
+                </label>
+                <label for="category">Product Category
+                    <select class="product-category">
+                        <option disabled disabled>Select category name</option>
+                        <option>Fruits</option>
+                        <option>Vegetables</option>
+                        <option>Tubers & Roots</option>
+                        <option>Legumes</option>
+                        <option>Grains</option>
+                        <option>Meat</option>
+                        <option>Oils</option>
+                    </select> 
+                </label>
+                <label for="discount">Discounted Price Schedule
+                    <select class="product-category">0.00
+                        <option>1000</option>
+                        <option>1000</option>
+                        <option>1000</option>
+                        <option>1000</option>
+                        <option>1000</option>
+                        <option>1000</option>
+                        <option>1000</option>
+                    </select> 
+                </label>
+            </form>
+
+            <!-- photo upload -->
+            <section class="photo-upload">
+                <div class="photo"></div>
+                <div class="photo"></div>
+                <div class="photo"></div>
+            </section>
+
+            <!--Buttons-->
+
+            <div class="upload-btn">
+                <button>Create & Add New</button>
+                <button>Create Product</button>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Iconify link -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

@@ -37,7 +37,7 @@ Global Styling
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    outline: 1px solid red;
+    
      
 }
 
@@ -896,8 +896,14 @@ sup{
     background-color: #ff8515;
     border: 1px solid #ff8515;
     font-weight: 600;
-    margin-bottom: 8rem
+    margin-bottom: 8rem;
+    transition: all 300ms linear;
 
+}
+
+.order-summary button:hover{
+    background-color: #ffffff;
+    color: #ff8515;
 }
 
 #product{
@@ -906,7 +912,6 @@ sup{
     gap: 1rem;
     margin-left: 1rem;
     padding: 1rem;
-    outline: 1px solid red;
    
     
     
@@ -914,7 +919,6 @@ sup{
 .product-image{
     height: 15rem;
     border-radius: 20px;
-    outline: 1px solid red;
     flex: 0 0 40%;
 }
 
@@ -923,7 +927,7 @@ sup{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    outline: 1px solid red;
+   
 }
 
 #product-details{
@@ -932,7 +936,6 @@ sup{
 
 #product-details > *{
     margin-top: 0.8rem;
-    outline: 1px solid red;
 
 }
 
@@ -949,6 +952,12 @@ sup{
     border-radius: 8px;
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 600;
+    transition: all 300ms linear;
+}
+
+#remove-cart button:hover{
+    background-color: #ffffff;
+    color: #ff8515;
 }
 
 .information{
