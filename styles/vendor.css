@@ -1,0 +1,344 @@
+/*
+================ 
+Fonts
+================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+
+/*
+================ 
+Variables
+================
+*/
+
+*{
+    --clr-CTA-primary: #53b449;
+    --cl-links-buttons:#ff8515;
+    --clr-headings: #27AE60;
+    --clr-valid-fields: #58a535;
+    --clr-error-messages: #f23d34;
+    --clr-overlays-shadows-headings: #0e0e2c;
+    --clr-body-text: #4a4a68;
+    --clr-helper-text: #8c8ca1;
+    --clr-accent-bg: #ecf1f4;
+    --clr-light-mode: #fafcfe;
+}
+
+
+/*
+================ 
+Global Styling
+================
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+     
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdfffe;
+    width: 100%;
+    font-weight: 600;
+    color:#000;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h5{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--clr-body-text);
+    font-size: 16px;
+}
+
+
+/* Navigation */
+.nav-bar{
+    flex: 0 1 20%;
+    background-color: var(--clr-valid-fields);
+    height: 120vh;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-info{
+    background-color: #000000;
+    
+}
+
+.seller-img{
+    background-color: var(--clr-body-text);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 1rem 0rem 0.5rem 1rem;
+   
+}
+
+.dropdown-profile-list{
+    float: center;
+    overflow: hidden;
+    background-color: #000000;
+    display: none;
+    
+    
+
+}
+
+.dropdown-profile-list li{
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    color: var(--clr-body-text);
+    font-size: 16px;
+}
+
+.personal-dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: var(--clr-body-text);
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.personal-dropdown:hover .dropdown-profile-list{
+    display: block;
+}
+
+.nav-list{
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.nav-list li{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0rem 0rem 0rem;
+    
+}
+
+.nav-list li:hover{
+    background-color: #ffffff;
+}
+
+.nav-list li .nav-icons{
+    font-size: 30px;
+}
+
+.nav-list li a{
+    font-size: 16px;
+    color: #000000;
+    margin-left: 1rem;
+}
+
+
+.settings h5{
+    color: var(--clr-body-text);
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+#settings{
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#settings .nav-icons{
+    font-size: 30px;
+}
+
+#settings a{
+    font-size: 16px;
+    color: #000000;
+    margin-left: rem;
+}
+
+#settings:hover{
+    background-color: #ffffff;
+}
+
+/* Vendor Page stying */
+
+/* Main */
+main{
+    flex: 0 1 80%;
+    background-color: #ffffff;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+    padding: 2rem 0rem 0rem 1rem;
+
+}
+
+.logo h2{
+    margin: 2rem 0rem 0rem 10rem;
+    font-size: 2.5rem;
+}
+
+
+/* Form */
+.product-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+}
+
+
+.product-details .input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product-details div input{
+    padding: 0.5rem;
+    width: 300px;
+    margin: 0.3rem 0rem;
+    
+}
+
+
+.product-details .select{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product-details div select{
+    padding: 0.5rem;
+    width: 300px;
+    margin: 0.3rem 0rem;
+}
+
+.product-details div label{
+    color: var(--clr-body-text);
+    font-weight: 200;
+    padding-top: 4rem
+}
+
+.input .input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1.5px solid var(--clr-body-text);
+    
+    
+    
+}
+
+.select .select-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1.5px solid var(--clr-body-text);
+    
+    
+    
+}
+
+.select-container .naira{
+    font-size: 25px;
+    text-align: center;
+}
+
+.input-container .naira{
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.product-price{
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.price-discount{
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+#label-stretch{
+    padding: 0.9rem;
+
+}
+
+
+/*Photo upload */
+.photo-upload{
+    margin: 2rem 0rem 0rem 2rem;
+    display: flex;
+    
+}
+
+.photo{
+    height: 10rem;
+    width: 10rem;
+    border: 1px dashed var(--clr-helper-text);
+    text-align: center;
+}
+
+.upload{
+    font-size: 100px;
+    color: var(--clr-helper-text);
+}
+
+#two{
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+
+/* Upload Buttons */
+.upload-btns{
+    margin: 3rem 0rem 0rem 4rem;
+}
+
+.upload-btns .btn{
+    padding: 0.8rem 2rem;
+    background-color: var(--clr-valid-fields);
+    border: 1px solid var(--clr-valid-fields);
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.pro{
+    margin-left: 8rem;
+}
+
+
+
+
+
+
+
+/**/

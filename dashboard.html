@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Style Link-->
+    <link rel="stylesheet" href="styles/vendor.css"/>
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Farmvill | Dashboard Page</title>
+</head>
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class="nav-bar">
+        <div class="nav-wrapper">
+            <div class="personal-info">
+                <div class="seller-img"></div>
+               <div class="personal-dropdown">
+                   <button class="dropbtn">Profile Info
+                      <span class="iconify" data-icon="ant-design:caret-down-filled"></span> 
+                   </button>
+                   <ul class="dropdown-profile-list">
+                        <li>Ondo Farms</li>
+                        <li>+234-705-432-15</li>
+                        <li>ondo@gmail.com</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <span class="iconify nav-icons" data-icon="bx:bxs-dashboard"></span>
+                    <a href="./dashboard.html" target="_blank">Dashboard</a>
+                </li>
+                <li>
+                    <span class="iconify nav-icons" data-icon="ic:baseline-message"></span>
+                    <a href="#">Messages</a>
+                </li>
+                <li>
+                    <span class="iconify nav-icons" data-icon="fluent:clipboard-bullet-list-rtl-20-filled"></span>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <span class="iconify nav-icons" data-icon="ic:baseline-report"></span>
+                    <a href="#">Reports</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="settings">
+                <h5>Settings</h5>
+                <div id="settings">
+                    <span class="iconify nav-icons" data-icon="ci:settings-filled"></span>
+                    <a href="#">Main Settings</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="container">
+            <div class="dashboard-flow">
+                <div class="grey">
+                    <div class="grey-btn">
+                        <a href="#">
+                            <button></button>
+                        </a>
+                        <a href="#">
+                            <button></button>
+                        </a>
+                        <a href="#">
+                            <button></button>
+                        </a>
+                        <a href="#">
+                            <button></button>
+                        </a>
+                    </div>
+                    <div class="graph"></div>
+                </div>
+                <div class="green">
+                    <div class="calender"></div>
+                    <div class="chart">
+                        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-total">
+                <div class="total-orders"></div>
+                <div class="average-orders"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Chart.js CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+
+
+    <!-- Iconify link -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

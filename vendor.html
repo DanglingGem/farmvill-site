@@ -18,26 +18,43 @@
     <!-- Navigation Bar-->
     <nav class="nav-bar">
         <div class="nav-wrapper">
-            <div class="personal-info"></div>
+            <div class="personal-info">
+                <div class="seller-img"></div>
+               <div class="personal-dropdown">
+                   <button class="dropbtn">Profile Info
+                      <span class="iconify" data-icon="ant-design:caret-down-filled"></span> 
+                   </button>
+                   <ul class="dropdown-profile-list">
+                        <li>Ondo Farms</li>
+                        <li>+234-705-432-15</li>
+                        <li>ondo@gmail.com</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
             <ul class="nav-list">
                 <li>
-                    <a href="#">Dashboard</a>
+                    <span class="iconify nav-icons" data-icon="bx:bxs-dashboard"></span>
+                    <a href="./dashboard.html" target="_blank">Dashboard</a>
                 </li>
                 <li>
+                    <span class="iconify nav-icons" data-icon="ic:baseline-message"></span>
                     <a href="#">Messages</a>
                 </li>
                 <li>
+                    <span class="iconify nav-icons" data-icon="fluent:clipboard-bullet-list-rtl-20-filled"></span>
                     <a href="#">Products</a>
                 </li>
                 <li>
-                    <a href="#">Reorts</a>
+                    <span class="iconify nav-icons" data-icon="ic:baseline-report"></span>
+                    <a href="#">Reports</a>
                 </li>
             </ul>
             <hr>
             <div class="settings">
                 <h5>Settings</h5>
-                <div>
-                    <span></span>
+                <div id="settings">
+                    <span class="iconify nav-icons" data-icon="ci:settings-filled"></span>
                     <a href="#">Main Settings</a>
                 </div>
             </div>
@@ -48,57 +65,69 @@
         <div class="container">
             <div class="logo">
                 <a href="#">
-                    <img src="images/" alt="logo"/>
+                    <img id="logo" src="images/black green logo.png" alt="logo"/>
                 </a>
                 <h2>Add New Product</h2>
             </div>
 
             <!-- form -->
             <form class="product-details">
-                <label for="name">Product Name
-                    <input class="product-name" type="text"/>
-                </label>
-                <label for="price">Price
-                    <input class="product-price" type="text"/>
-                    <span></span>
-                </label>
-                <label for="category">Product Category
-                    <select class="product-category">
-                        <option disabled disabled>Select category name</option>
-                        <option>Fruits</option>
-                        <option>Vegetables</option>
-                        <option>Tubers & Roots</option>
-                        <option>Legumes</option>
-                        <option>Grains</option>
-                        <option>Meat</option>
-                        <option>Oils</option>
-                    </select> 
-                </label>
-                <label for="discount">Discounted Price Schedule
-                    <select class="product-category">0.00
-                        <option>1000</option>
-                        <option>1000</option>
-                        <option>1000</option>
-                        <option>1000</option>
-                        <option>1000</option>
-                        <option>1000</option>
-                        <option>1000</option>
-                    </select> 
-                </label>
+                <div class="input">
+                    <label for="name">Product Name</label>
+                    <input class="product-name" id="label-stretch" type="text"/>
+                    <label for="price">Price</label>
+                    <div class="input-container">
+                        <span class="iconify naira" data-icon="tabler:currency-naira"></span>
+                        <input class="product-price" type="text" placeholder="0:00"/>
+                    </div>
+                </div>
+                <div class="select">
+                    <label for="category">Product Category</label>
+                        <select class="product-category" id="label-stretch">
+                            <option disabled disabled>Select category name</option>
+                            <option>Fruits</option>
+                            <option>Vegetables</option>
+                            <option>Tubers & Roots</option>
+                            <option>Legumes</option>
+                            <option>Grains</option>
+                            <option>Meat</option>
+                            <option>Oils</option>
+                        </select> 
+                    <label for="discount">Discounted Price Schedule</label>
+                        <div class="select-container">
+                            <span class="iconify naira" data-icon="tabler:currency-naira"></span>
+                            <select class="price-discount">
+                                <option disabled selected>0:00</option>
+                                <option>1000</option>
+                                <option>1000</option>
+                                <option>1000</option>
+                                <option>1000</option>
+                                <option>1000</option>
+                                <option>1000</option>
+                            </select>
+                        </div> 
+                    
+                </div>
             </form>
 
             <!-- photo upload -->
             <section class="photo-upload">
-                <div class="photo"></div>
-                <div class="photo"></div>
-                <div class="photo"></div>
+                <div class="photo" id="one" >
+                    <span class="iconify upload" data-icon="ant-design:cloud-upload-outlined"></span>
+                </div>
+                <div class="photo" id="two">
+                    <span class="iconify upload" data-icon="ant-design:cloud-upload-outlined"></span>
+                </div>
+                <div class="photo" id="three">
+                    <span class="iconify upload" data-icon="ant-design:cloud-upload-outlined"></span>
+                </div>
             </section>
 
             <!--Buttons-->
 
-            <div class="upload-btn">
-                <button>Create & Add New</button>
-                <button>Create Product</button>
+            <div class="upload-btns">
+                <button class="btn new" >Create & Add New</button>
+                <button class="btn pro" >Create Product</button>
             </div>
 
         </div>
