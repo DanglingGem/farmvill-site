@@ -1292,6 +1292,8 @@ sup{
     
 }
 
+
+
 .row-one{
     display: flex;
     margin-bottom: 0.5rem;
@@ -1331,6 +1333,7 @@ sup{
     display: flex;
     flex-direction: column;
     
+    
 }
 
 .column-two label input{
@@ -1354,12 +1357,13 @@ sup{
 }
 
 
-.your-cart{
+.your-cart-list{
     flex: 0 0 50%;
     margin-bottom: 6rem;
+   
     
 }
-.your-cart h4{
+.your-cart-list h4{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -1431,6 +1435,7 @@ sup{
     .row-one{
         display: flex;
         flex-direction: column;
+        gap: 1rem;
         
     }
     
@@ -1442,12 +1447,14 @@ sup{
     
     .column-one label input{
         padding: 0.5rem 8rem 0.5rem 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3rem;
+        
     }
     
     .row-two{
         display: flex;
         flex-direction: column;
+        gap: 1rem;
         
     }
     
@@ -1459,7 +1466,10 @@ sup{
         padding: 0.5rem 8rem 0.5rem 0.5rem;
     }
     
-    
+    .column-one{
+        gap: 0.6rem;
+        
+    }
     
     .column-two label input{
         padding: 0.5rem 8rem 0.5rem 0.5rem;
@@ -1483,7 +1493,15 @@ sup{
         
     }
 
-    .your-cart{
+    .personal-details div{
+        margin-bottom: 1rem;
+    }
+
+    .ship-btn{
+        margin-left: 2rem;
+    }
+
+    .your-cart-list{
         margin-top: 4rem;
     }
 
@@ -1495,6 +1513,7 @@ sup{
 
     #remove button{
         font-size: 14px;
+        
     }
 
     .subtotal p span{
