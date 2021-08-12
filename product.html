@@ -39,10 +39,10 @@
                 </li>
 
                 <li id="nav-list">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="./index.html">Shop</a>
                 </li>
                 <li id="nav-list">
-                    <a class="nav-link" href="#">Sell</a>
+                    <a class="nav-link" href="./vendor.html">Sell</a>
                 </li>
                 <li id="nav-list">
                     <form>
@@ -62,29 +62,42 @@
     </nav>
 
     <main>
-        <div class="container">
+        <div class="image-title">
+            <h2>Product</h2>
+            <div class="favourite">
+                <span class="iconify icons" data-icon="carbon:favorite"></span>
+                <a href="./checkout.html">
+                    <span class="iconify icons" data-icon="eva:external-link-fill"></span>
+                </a>
+            </div>
+        </div>
+        <div class="product-container">
             <div class="images">
-                <div class="images"></div>
-                <div class="images"></div>
-                <div class="images"></div>
-                <div class="images"></div>
+                <div id="images">
+                    <img src="images/yam-one.jpg" alt="yam one"/>
+                </div>
+                <div id="images">
+                    <img src="images/yam-two.webp" alt="yam two"/>
+                </div>
+                <div id="images">
+                    <img src="images/yams.jpg" alt="yam" />
+                </div>
+                <div id="images">
+                    <img src="images/Tubers-of-yam.jpg" alt="tubers of yam"/>
+                </div>
             </div>
             <div class="image-details">
-                <div class="image-title">
-                    <h2>Product</h2>
-                    <div class="favourite">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
                 <div class="image-info">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptatibus quia? Nesciunt autem ratione laboriosam tempore ex esse perspiciatis optio labore, nemo, dolor corporis eum ipsum dolores obcaecati numquam totam!</p>
                 </div>
                 <div class="product-btn">
                     <a href="#">
-                        <button>Add to Cart - <span>$</span>5000</button>
+                        <button class="add-to-cart">Add to Cart - <span class="iconify naira" data-icon="tabler:currency-naira"></span>5000</button>
                     </a>
-                    <button>2</button>
+                    <button class="count" ><span class="iconify icons" data-icon="bx:bx-minus"></span>
+                        <span>2</span>
+                        <span class="iconify icons" data-icon="ant-design:plus-outlined"></span>
+                    </button>
                 </div>
             </div>
         </div>
