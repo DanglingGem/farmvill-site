@@ -29,7 +29,7 @@ document.getElementById("add-animation").ad("click", function () {
    ,1)
 });*/
 
-
+// Order Information
 const questions = document.querySelectorAll(".question");
 
 questions.forEach(function (question) {
@@ -48,4 +48,7 @@ questions.forEach(function (question) {
       question.classList.toggle("show-answer");
   });
 });
+
+
+
 

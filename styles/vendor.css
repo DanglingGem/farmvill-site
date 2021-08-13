@@ -67,6 +67,8 @@ a{
 }
 
 
+
+
 /* Navigation */
 .nav-bar{
     flex: 0 1 20%;
@@ -177,7 +179,10 @@ a{
     background-color: #ffffff;
 }
 
-/* Vendor Page stying */
+
+
+
+/* Vendor Page styling */
 
 /* Main */
 main{
@@ -318,12 +323,13 @@ main{
 
 
 /* Upload Buttons */
-.upload-btns{
+.upload-btn{
     margin: 3rem 0rem 0rem 4rem;
+    display: flex;
 }
 
-.upload-btns .btn{
-    padding: 0.8rem 2rem;
+.upload-btn button{
+    padding: 0.5rem 1.5rem;
     background-color: var(--clr-valid-fields);
     border: 1px solid var(--clr-valid-fields);
     font-size: 16px;
@@ -332,13 +338,91 @@ main{
 }
 
 .pro{
-    margin-left: 8rem;
+    margin-left: 2rem;
 }
 
 
+/* Media Query for Tab Devices */
+@media screen and (max-width: 882px){
+    .product-details div input{
+        width: 250px;
 
+    }
 
+    .product-details div select{
+        width: 250px;
+    }
+} 
 
+/* Media Query for Mobile Devices */
 
+@media screen and (max-width: 375px){
+    body{
+        flex-direction: column;
+    }
 
-/**/
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo{
+        width: 150px;
+        padding: 2rem 0rem 0rem 0rem;
+    
+    }
+    
+    .logo h2{
+        margin: 2rem 0rem 0rem 0rem;
+        font-size: 2.2rem;
+    }
+
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 2rem;
+    }
+
+    .photo-upload{
+        margin: 2rem 0rem 0rem 3rem;
+        
+        
+    }
+
+    .photo{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+
+    .upload{
+        font-size: 40px;
+        
+    }
+
+    .upload-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin: 3rem 0rem 5rem 0rem;
+    }
+
+    .upload-btn button{
+        padding: 0.5rem 1.5rem;
+        background-color: var(--clr-valid-fields);
+        border: 1px solid var(--clr-valid-fields);
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        
+    }
+    
+    .pro{
+        margin-left: 0rem;
+    }
+    
+    
+}
