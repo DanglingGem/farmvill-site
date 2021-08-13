@@ -1123,6 +1123,7 @@ sup{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
    
 }
 
@@ -1371,15 +1372,17 @@ sup{
     margin-bottom: 1rem;
 }
 #product-list{
-    height: 8rem;
+    height: 10rem;
     display: flex;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .pro-image{
     height: 10rem;
     width: 10rem;
-    border-radius: 10px;
+    
+    
 }
 
 .pro-image img{
@@ -1387,6 +1390,7 @@ sup{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 #pro-price{
